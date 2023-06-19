@@ -5,9 +5,23 @@
 }
 .cabecalho{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 9,;
     max-height: 99vh;
+    
     background-color: aquamarine;
     padding: 20px 0;
+}
+.botao 1{
+    grid-row: 1;
+    grid-template-columns: repeat (3, 1fr);
+
+    .botao 2{
+        grid-row: 1
+        grid-template-columns: repeat (3,1fr)
+    }
+   
+   
+
+
 }
