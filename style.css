@@ -4,6 +4,10 @@
     
 }
 .cabecalho{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 9,;
+    max-height: 99vh;
     background-color: aquamarine;
     padding: 20px 0;
 }
